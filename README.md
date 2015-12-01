@@ -14,6 +14,7 @@ replacing `<your-api-key>` with the 32 character API key found in your account I
 
 Add the datadog-agent custom configurations into dd-agent/conf.d directory
 E.g. To configure datadog-agent to not report metrics for the following containers
+
         - docker_image:tutum/metrics"
         - docker_image:tutum/ntpd"
 the configuration file docker_daemon.yaml would be as below (YAML syntax)
