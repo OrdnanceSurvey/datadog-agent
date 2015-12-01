@@ -1,0 +1,14 @@
+init_config:
+instances:
+    - url: "unix://var/run/docker.sock"
+      include: []
+      exclude:
+        - docker_image:tutum/weave-daemon"
+        - docker_image:tutum/events"
+        - docker_image:tutum/cleanup"
+        - docker_image:tutum/metrics"
+        - docker_image:tutum/ntpd"
+        - docker_image:weaveworks/weaveexec"
+        - docker_image:weaveworks/weavedns"
+        - docker_image:weaveworks/weave"
+        - docker_image:tutum/logrotate"

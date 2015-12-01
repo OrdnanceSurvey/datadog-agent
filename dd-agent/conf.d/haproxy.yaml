@@ -1,0 +1,5 @@
+init_config:
+instances:
+    - url: http://localhost:8080
+      username: stats
+      password: stats
