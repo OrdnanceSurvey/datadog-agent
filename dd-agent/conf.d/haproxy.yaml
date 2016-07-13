@@ -1,17 +1,23 @@
 init_config:
 instances:
-    - url: http://localhost:8080
+    - url: http://dev-haproxy-boundaryapi:1936
       username: stats
       password: stats
-    - url: http://localhost:8093
+    - url: http://dev-haproxy-csp:1936
       username: stats
       password: stats
-    - url: http://localhost:8096
+    - url: http://dev-haproxy-csp-elements:1936
       username: stats
       password: stats
-    - url: http://localhost:8097
+    - url: http://dev-haproxy-osplaces:1936
       username: stats
       password: stats
-    - url: http://localhost:8098
+    - url: http://ite-red-haproxy-osplaces:1936
+      username: stats
+      password: stats
+    - url: http://test-haproxy-csp:1936
+      username: stats
+      password: stats
+    - url: http://test-haproxy-csp-elements:1936
       username: stats
       password: stats
