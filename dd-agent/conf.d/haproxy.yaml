@@ -3,3 +3,15 @@ instances:
     - url: http://localhost:8080
       username: stats
       password: stats
+    - url: http://localhost:8093
+      username: stats
+      password: stats
+    - url: http://localhost:8096
+      username: stats
+      password: stats
+    - url: http://localhost:8097
+      username: stats
+      password: stats
+    - url: http://localhost:8098
+      username: stats
+      password: stats
