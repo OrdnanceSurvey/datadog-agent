@@ -9,6 +9,8 @@ instances:
   collect_activity_metrics: true
   collect_function_metrics: true
   collect_database_size_metrics: true
+  tags:
+    -dbinstanceidentifier: osmaps-csp-user-ite
 
   - host: osmaps-ite-geostore.cxirbuinusei.eu-west-1.rds.amazonaws.com
   port: 5432
@@ -18,7 +20,8 @@ instances:
   collect_activity_metrics: true
   collect_function_metrics: true
   collect_database_size_metrics: true
-
+  tags:
+    -dbinstanceidentifier: osmaps-ite-geostore
 
 
 
