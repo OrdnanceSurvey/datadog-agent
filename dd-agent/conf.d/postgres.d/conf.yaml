@@ -2,22 +2,22 @@ init_config:
 
 instances:
   - host: osmaps-csp-user-ite.cxirbuinusei.eu-west-1.rds.amazonaws.com
-    port: 5432
-    username: datadog
-    password: M72tbkNMS6wjkdTL
-    dbname: csp
-    collect_activity_metrics: true
-    collect_function_metrics: true
-    collect_database_size_metrics: true
+  port: 5432
+  username: datadog
+  password: M72tbkNMS6wjkdTL
+  dbname: csp
+  collect_activity_metrics: true
+  collect_function_metrics: true
+  collect_database_size_metrics: true
 
   - host: osmaps-ite-geostore.cxirbuinusei.eu-west-1.rds.amazonaws.com
-    port: 5432
-    username: datadog
-    password: M72tbkNMS6wjkdTL
-    dbname: csp
-    collect_activity_metrics: true
-    collect_function_metrics: true
-    collect_database_size_metrics: true
+  port: 5432
+  username: datadog
+  password: M72tbkNMS6wjkdTL
+  dbname: csp
+  collect_activity_metrics: true
+  collect_function_metrics: true
+  collect_database_size_metrics: true
 
 
 
