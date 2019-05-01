@@ -1,5 +1,5 @@
 FROM centos:centos7
-RUN yum -y install postgresql94
+RUN yum -y install postgresql
 
 FROM datadog/docker-dd-agent
 MAINTAINER support@tutum.co
