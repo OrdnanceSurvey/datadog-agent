@@ -10,7 +10,6 @@ instances:
     collect_database_size_metrics: true
     tags:
       - dbinstanceidentifier:osmaps-csp-user-ite
-
    - host: osmaps-ite-geostore.cxirbuinusei.eu-west-1.rds.amazonaws.com
      port: 5432
      username: datadog
