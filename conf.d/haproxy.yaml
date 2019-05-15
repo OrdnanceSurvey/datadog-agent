@@ -1,5 +1,5 @@
 init_config:
 instances:
-    - url: http://haproxy.haproxy.default.csp-ite.ite.os.uk:9000/haproxy_stats
+    - url: http://haproxy-prod.haproxy-d.default.csp.os.uk:9000/haproxy_stats
       username: stats
       password: stats
